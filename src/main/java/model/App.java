@@ -1,4 +1,4 @@
-package org.example;
+package model;
 
 import db.CustomerDao;
 import org.springframework.context.ApplicationContext;

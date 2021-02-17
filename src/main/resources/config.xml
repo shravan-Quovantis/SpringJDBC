@@ -17,7 +17,7 @@
         </property>
     </bean>
 
-    <bean class="db.CustomerDaoImplement" name="customerDaoBean">
+    <bean class="db.CustomerDao" name="customerDaoBean">
         <property name="jdbcTemplate" ref="JDBCTemplateBean"/>
     </bean>
 
